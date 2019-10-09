@@ -1,0 +1,27 @@
+{ "body": '{
+    "cluster id": "27.0",
+    "confidence": "0.9365780353546143",
+    "createdAt": "null_placeholder",
+    "cwid": "zsb4001",
+    "dayOfBirth": "null_placeholder",
+    "departmentLabel": "null_placeholder",
+    "email": "bill@example.edu",
+    "genderScore": "0.99714",
+    "givenName": "zach",
+    "id": "103",
+    "location": "wcm_campus",
+    "middleName": "Bill",
+    "modifyTimestamp": "20190710193100z",
+    "monthOfBirth": "null_placeholder",
+    "npi": "null_placeholder",
+    "postalCode": "null_placeholder",
+    "prefix": "null_placeholder",
+    "sorId": "2222222",
+    "source": "wcm_students",
+    "startDate": "1569816000",
+    "status": "active",
+    "suffix": "null_placeholder",
+    "surname": "ber",
+    "title": "student"
+}'
+}

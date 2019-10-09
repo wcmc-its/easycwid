@@ -1,0 +1,17 @@
+Resources:
+  RecordsTable:
+    Type: AWS::DynamoDB::Table
+    Properties:
+      # Generate a name based on the stage
+      TableName: ${self:custom.stage}-cwid-records
+      AttributeDefinitions:
+        - AttributeName: id
+          AttributeType: S
+      KeySchema:
+        - AttributeName: id
+          KeyType: HASH
+
+      # Set the capacity based on the stage
+      ProvisionedThroughput:
+        ReadCapacityUnits: ${self:custom.tableThroughput}
+        WriteCapacityUnits: ${self:custom.tableThroughput}
