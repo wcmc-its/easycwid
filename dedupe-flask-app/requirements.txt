@@ -11,7 +11,7 @@ boto3==1.9.215
 botocore==1.12.215
 BTrees==4.6.0
 categorical-distance==1.9
-celery==4.3.0
+celery==5.2.2
 certifi==2018.1.18
 cffi==1.12.3
 chardet==3.0.4
