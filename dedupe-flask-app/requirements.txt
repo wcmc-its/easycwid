@@ -71,7 +71,7 @@ pycrypto==2.6.1
 Pygments==2.2.0
 pygobject==3.26.1
 pyhacrf-datamade==0.2.3
-PyJWT==1.5.3
+PyJWT==2.4.0
 PyLBFGS==0.2.0.12
 pyOpenSSL==17.5.0
 pyserial==3.4
